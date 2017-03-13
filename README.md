@@ -1,8 +1,7 @@
-# Ruby on Rails Tutorial: sample application
+# Buildr App
 
-This is the sample application for the
-[*Ruby on Rails Tutorial:
-Learn Web Development with Rails*](http://www.railstutorial.org/)
-by [Michael Hartl](http://www.michaelhartl.com/).
+This application is designed to share different information between different roles in a single building/architectual project. 
 
-Simple change to test git.--JCB
+### General Help
+[Michael Hartl's RoR Textbook](https://www.railstutorial.org/book "Hartl")
+[Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet "Markdown Cheatsheet")
