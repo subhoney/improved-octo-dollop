@@ -1,4 +1,4 @@
-# Buildr App
+# BLDR App
 
 This application is designed to share different information between different roles in a single building/architectual project. 
 
