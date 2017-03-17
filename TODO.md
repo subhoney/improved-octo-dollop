@@ -40,3 +40,6 @@
     * new.html.erb
     * show.html.erb
 
+# COMPLTED
+## JOSH
+1. Set up slack integration for github pushes
