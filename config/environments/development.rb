@@ -38,4 +38,8 @@ Rails.application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
+  
+  # for devise
+  # changed port to 8080 for puma
+  config.action_mailer.default_url_options = { host: 'localhost', port: 8080 }
 end
