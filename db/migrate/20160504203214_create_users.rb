@@ -6,5 +6,12 @@ class CreateUsers < ActiveRecord::Migration
 
       t.timestamps null: false
     end
+
+    # Initialize first account:
+    User.create! do |u|
+        u.email = 'test@test.com'
+        u.password = 'password'
+    end
+    
   end
 end
