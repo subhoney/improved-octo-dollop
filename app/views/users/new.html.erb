@@ -1,5 +1,5 @@
 <% provide(:title, 'Sign up') %>
-<h1>Sign up</h1>
+<h1>Become a BLDR!</h1>
 
 <div class="row">
   <div class="col-md-6 col-md-offset-3">
@@ -17,6 +17,27 @@
 
       <%= f.label :password_confirmation, "Confirmation" %>
       <%= f.password_field :password_confirmation, class: 'form-control' %>
+      
+      <div class="text-center">
+        <div class="btn-group" data-toggle="buttons">
+            <label class="btn btn-primary active">
+                <input type="radio"> Contractor
+            </label>
+            <label class="btn btn-primary">
+                <input type="radio"> Owner
+            </label>
+            <label class="btn btn-primary">
+                <input type="radio"> Project Manager
+            </label>
+        </div>
+      </div>
+      
+      <% if false %>
+      <%= f.label :user_type, "User Type" %>
+      <%= f.radio_button :user_type, class: 'form_control' %>
+      <% end %>
+      
+      <br />
 
       <%= f.submit "Create my account", class: "btn btn-primary" %>
     <% end %>

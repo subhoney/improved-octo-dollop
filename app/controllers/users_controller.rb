@@ -3,8 +3,6 @@ class UsersController < ApplicationController
   before_action :correct_user,   only: [:edit, :update]
   before_action :admin_user,     only: :destroy
 
-
-
   def destroy
     User.find(params[:id]).destroy
     flash[:success] = "User deleted"
@@ -52,7 +50,7 @@ class UsersController < ApplicationController
 
     def user_params
       params.require(:user).permit(:name, :email, :password,
-                                   :password_confirmation)
+                                   :password_confirmation, :user_type)
     end
 
     # Before filters
