@@ -1,8 +1,8 @@
-<header class="navbar navbar-fixed-top navbar-inverse">
+<header id="headerbar" class="navbar navbar-fixed-top navbar-inverse">
   <div class="container">
     <%= link_to "BLDR", root_path, id: "logo" %>
     <nav>
-      <ul class="nav navbar-nav navbar-right" display = "inline-block">
+      <ul id="headlist" class="nav navbar-nav navbar-right" display = "inline-block">
         <li><%= link_to "Home", root_path %></li>
         <li><%= link_to "Help", help_path %></li>
         <% if logged_in? %>
@@ -27,8 +27,3 @@
     </nav>
   </div>
 </header>
-<style>
-    .navbar-nav>li {
-    display: inline-block;
-}
-</style>
