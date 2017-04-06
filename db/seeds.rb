@@ -11,5 +11,6 @@ User.create!(name:  "Example User",
   User.create!(name:  name,
                email: email,
                password:              password,
-               password_confirmation: password)
+               password_confirmation: password, 
+               role:                  rand(0..3)) # random role
 end
