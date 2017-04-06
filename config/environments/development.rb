@@ -38,4 +38,10 @@ Rails.application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
+  
+  # mailer for devise
+  # probably won't be used, unless we want to get jiggy with it
+  # http://devise.plataformatec.com.br/
+  config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
+
 end
