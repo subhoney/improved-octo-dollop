@@ -17,27 +17,10 @@
 
       <%= f.label :password_confirmation, "Confirm Password" %>
       <%= f.password_field :password_confirmation, class: 'form-control' %>
-      
-      <div class="text-center">
-        <div class="btn-group" data-toggle="buttons">
-            <label class="btn btn-primary active">
-                <input type="radio"> Contractor
-            </label>
-            <label class="btn btn-primary">
-                <input type="radio"> Owner
-            </label>
-            <label class="btn btn-primary">
-                <input type="radio"> Project Manager
-            </label>
-        </div>
-      </div>
-      
+
       <% if false %>
-      <%= f.label :user_type, "User Type" %>
-      <%= f.radio_button :user_type, class: 'form_control' %>
+      <%= f.select :country_id, options_for_select(@countries.map{ |c| [c.name, c.id, {'data-currency_code'=>c.currency_code}] }, selected_key = f.object.country_id) %>
       <% end %>
-      
-      <br />
 
       <%= f.submit "Create my account", class: "btn btn-primary" %>
     <% end %>
