@@ -1,9 +1,10 @@
 class User < ActiveRecord::Base
-  # Include default devise modules. Others available are:
-  # :confirmable, :lockable, :timeoutable and :omniauthable
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable
   attr_accessor :remember_token
+  
+  # add enum for user type
+  enum role: { owner: 0, project_manager: 1, contractor: 2, subcontractor: 3 }
 
   before_save { self.email = email.downcase }
   validates :name,  presence: true, length: { maximum: 50 }
@@ -14,8 +15,6 @@ class User < ActiveRecord::Base
   has_secure_password
   validates :password, presence: true, length: { minimum: 6 }, allow_nil: true
 
-  # add enum for user roles. 
-  enum role: { owner: 0, project_manager: 1, contractor: 2 }
 
   # Returns the hash digest of the given string.
   def User.digest(string)
