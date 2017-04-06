@@ -8,8 +8,8 @@ User.create!(name:  "Example User",
   name  = Faker::Name.name
   email = "example-#{n+1}@ggc.edu"
   password = "password"
-  User.create!(name:  name,
-               email: email,
+  User.create!(name:                  name,
+               email:                 email,
                password:              password,
                password_confirmation: password, 
                role:                  rand(0..3)) # random role
