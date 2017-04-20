@@ -1,0 +1,321 @@
+[33mcommit 125cbc2843b28b7adab0d8cf3e63b26f114dc1e6[m
+Author: joshua.broughton <joshua.c.broughton@gmail.com>
+Date:   Thu Apr 20 17:11:58 2017 +0000
+
+    Removed views and migrations for devise
+
+[33mcommit 1c73530d213b0f93e020843f1ca78e5bd77316f4[m
+Author: joshua.broughton <joshua.c.broughton@gmail.com>
+Date:   Thu Apr 20 17:10:46 2017 +0000
+
+    Removing devise
+
+[33mcommit bcd6a6a03b8a1dfa8e821648e467daae5f3114ac[m
+Author: joshua.broughton <joshua.c.broughton@gmail.com>
+Date:   Thu Apr 20 17:09:32 2017 +0000
+
+    Added acces methods for devise.
+
+[33mcommit 9d2b64e1f39915db6a61e166435cd218be06e97d[m
+Author: joshua.broughton <joshua.c.broughton@gmail.com>
+Date:   Thu Apr 20 16:59:01 2017 +0000
+
+    Removed password_digest in schema.
+
+[33mcommit 8ae8890e946caf152f1b85ac01482b5bca6d6917[m
+Author: joshua.broughton <joshua.c.broughton@gmail.com>
+Date:   Thu Apr 20 16:57:18 2017 +0000
+
+    Removed encrypted, replaced with secure.
+
+[33mcommit de84cd95faa3ca709834048d4403fc10a5c80877[m
+Author: joshua.broughton <joshua.c.broughton@gmail.com>
+Date:   Thu Apr 20 16:55:31 2017 +0000
+
+    Changed secure to encrypted.
+
+[33mcommit c5b82fb46ba66531f2a5df1a73eb7462d1d8a65e[m
+Author: joshua.broughton <joshua.c.broughton@gmail.com>
+Date:   Thu Apr 20 16:51:31 2017 +0000
+
+    Typo
+
+[33mcommit c814e9ce43026ae41259293974afba498ab78eb6[m
+Author: joshua.broughton <joshua.c.broughton@gmail.com>
+Date:   Thu Apr 20 16:45:17 2017 +0000
+
+    commented password digest out
+
+[33mcommit 955995adb2f76eaca9140432c14abf3baf3bbda3[m
+Author: joshua.broughton <joshua.c.broughton@gmail.com>
+Date:   Thu Apr 20 16:37:34 2017 +0000
+
+    Removed has_secure_password from users.rb. Yes, I know that's crazy.
+
+[33mcommit 42569066988e3b4115449cf53b0c558c33a76396[m
+Author: joshua.broughton <joshua.c.broughton@gmail.com>
+Date:   Thu Apr 20 15:59:43 2017 +0000
+
+     undid various things
+
+[33mcommit 475a3b8b9ccc55b6c7caf3548a88a0198266548e[m
+Author: joshua.broughton <joshua.c.broughton@gmail.com>
+Date:   Thu Apr 20 15:53:02 2017 +0000
+
+    removed digest to user class , added to user class
+
+[33mcommit 07f2264bda6871013ae38590a95792820b5f612d[m
+Author: joshua.broughton <joshua.c.broughton@gmail.com>
+Date:   Thu Apr 6 19:16:06 2017 +0000
+
+    Added stub for select form helper in /views/users/new.html.erb
+
+[33mcommit 7f144185c44b2f2272d6cfa26af6fe3b717ba0c7[m
+Author: joshua.broughton <joshua.c.broughton@gmail.com>
+Date:   Thu Apr 6 19:00:11 2017 +0000
+
+    Typo in seeds.rb
+
+[33mcommit ce05bd005592ae8e9a80e82632a27802bec30902[m
+Author: joshua.broughton <joshua.c.broughton@gmail.com>
+Date:   Thu Apr 6 18:59:28 2017 +0000
+
+    Added random user role to faker.
+
+[33mcommit 703552383d0840705c35bf015633229a6b763cb5[m
+Author: joshua.broughton <joshua.c.broughton@gmail.com>
+Date:   Thu Apr 6 18:57:17 2017 +0000
+
+    Added correct email domains to seeds.rb
+
+[33mcommit 5dd4f7591ff528e64e9044634670f2b66bc6edf9[m
+Author: joshua.broughton <joshua.c.broughton@gmail.com>
+Date:   Thu Apr 6 18:56:15 2017 +0000
+
+    Added int field role to schema
+
+[33mcommit 464b17a4c6e36cac36c9b3650f536698927f5f6e[m
+Merge: c9aafbc c107e92
+Author: joshua.broughton <joshua.c.broughton@gmail.com>
+Date:   Thu Apr 6 18:23:10 2017 +0000
+
+    Merging conflicts back to master.
+
+[33mcommit c9aafbcb18c08c6b98d197eb38c88cb31353d392[m
+Author: joshua.broughton <joshua.c.broughton@gmail.com>
+Date:   Thu Apr 6 18:18:58 2017 +0000
+
+    Added devise to user model. Finlaly.
+
+[33mcommit 8e84d75a4ae800feef6f2db44db9b900895d2345[m
+Author: joshua.broughton <joshua.c.broughton@gmail.com>
+Date:   Thu Apr 6 17:50:43 2017 +0000
+
+    Added devise gem, configured based on the devise github page.
+
+[33mcommit c107e924ca954babc6b3e49479106f828b34518f[m
+Author: Duncan Brown <dbrown22732@gmail.com>
+Date:   Thu Apr 6 13:38:24 2017 +0000
+
+    style modifications being pushed before presentation
+
+[33mcommit 6931838dc409d92297729fd3f0ed8f41f7f2f42f[m
+Author: joshua.broughton <joshua.c.broughton@gmail.com>
+Date:   Thu Mar 30 19:44:08 2017 +0000
+
+    Typo.
+
+[33mcommit acf434769d25a17e9d4bd57ae5767cba8cc166cb[m
+Author: joshua.broughton <joshua.c.broughton@gmail.com>
+Date:   Thu Mar 30 14:18:07 2017 +0000
+
+    Removed unnecessary DB migrations.
+
+[33mcommit d3b27cd2a1c13980a2bfc851bc75a3c41c3148b1[m
+Author: joshua.broughton <joshua.c.broughton@gmail.com>
+Date:   Thu Mar 30 14:01:17 2017 +0000
+
+    Added roles to users, migrated db to new schema.
+
+[33mcommit a0cf8161ff3420aaa1fc2755002856512a18a791[m
+Author: joshua.broughton <joshua.c.broughton@gmail.com>
+Date:   Thu Mar 30 13:54:50 2017 +0000
+
+    Reran the generator for devise. Added enum to user model.
+
+[33mcommit 2968c97c47c495e7be75c1a871bbc7bb25155c16[m
+Author: joshua.broughton <joshua.c.broughton@gmail.com>
+Date:   Tue Mar 28 14:47:28 2017 +0000
+
+    Added radio buttons
+
+[33mcommit 037d90f7d6b67cdac2735b804746bb265528f3c7[m
+Author: joshua.broughton <joshua.c.broughton@gmail.com>
+Date:   Tue Mar 28 13:54:28 2017 +0000
+
+    Added if notice and alerts to application.html.erb.
+
+[33mcommit 3062b7f8caa1019bd5c5b2743fe667990387f447[m
+Author: joshua.broughton <joshua.c.broughton@gmail.com>
+Date:   Mon Mar 27 16:56:29 2017 +0000
+
+    Added devise schema to tables, added test user.
+
+[33mcommit 40be0060f360504f24c157ff9839e2e60faac91d[m
+Author: joshua.broughton <joshua.c.broughton@gmail.com>
+Date:   Mon Mar 27 16:38:57 2017 +0000
+
+    Added flash module to application.html.rb
+
+[33mcommit 7d0d636c4cb5d87b41e8b9d6a90c70ac38ee4fae[m
+Author: joshua.broughton <joshua.c.broughton@gmail.com>
+Date:   Mon Mar 27 16:37:29 2017 +0000
+
+    Added requirement for toastr to application.js'
+
+[33mcommit d8f3210fe57e8031d26980b14faffb75366f9bd5[m
+Author: joshua.broughton <joshua.c.broughton@gmail.com>
+Date:   Mon Mar 27 16:36:49 2017 +0000
+
+    Added requirement for toastr to application.cs
+
+[33mcommit f4aacfbd1700b4a3d5271fbe3c1176f4906724c7[m
+Author: joshua.broughton <joshua.c.broughton@gmail.com>
+Date:   Mon Mar 27 16:35:21 2017 +0000
+
+    Added toastr-rails to gemfile for flash warnings.
+
+[33mcommit 83b2ce7ec39c98c2a215e3b29c26a6d8f3fdbf65[m
+Author: joshua.broughton <joshua.c.broughton@gmail.com>
+Date:   Mon Mar 27 16:31:10 2017 +0000
+
+    Added devise gem
+
+[33mcommit 58c2afffc904a9af3dcfc99b728411af041c3381[m
+Author: joshua.broughton <joshua.c.broughton@gmail.com>
+Date:   Wed Mar 22 17:35:47 2017 +0000
+
+    Typo
+
+[33mcommit 26ebacf98ef719aab93f7a18b84ac947c6117f61[m
+Author: lgroce <lgroce@ggc.edu>
+Date:   Wed Mar 22 17:31:30 2017 +0000
+
+    <added html page>
+
+[33mcommit 1fbe2ffab13a4ecea0ec79e837b152cf218312d9[m
+Merge: 1f85e37 9f24345
+Author: Duncan Brown <dbrown22732@gmail.com>
+Date:   Tue Mar 21 14:36:16 2017 +0000
+
+    Merge branch 'master' of https://github.com/subhoney/improved-octo-dollop
+
+[33mcommit 1f85e37517e962bca9966f5ff97b2a53f2f28fd3[m
+Author: Duncan Brown <dbrown22732@gmail.com>
+Date:   Tue Mar 21 14:31:33 2017 +0000
+
+    modified footer, header, and static pages to remove ruby boilerplate
+
+[33mcommit 9f2434560f9b3c51a803739da605ff09e3b008a8[m
+Author: joshua.broughton <joshua.c.broughton@gmail.com>
+Date:   Fri Mar 17 19:02:27 2017 +0000
+
+    Removed TODO.md; replaced with Github integration and issue tracking.
+
+[33mcommit 09d44092dbeaf266c02fedf30e4ed4c6e6a4ea67[m
+Author: joshua.broughton <joshua.c.broughton@gmail.com>
+Date:   Fri Mar 17 18:49:01 2017 +0000
+
+    Added COMPLETED category to the TODO.md
+
+[33mcommit 251941993705b137f9bf29dc7685951ae324c4b2[m
+Author: joshua.broughton <joshua.c.broughton@gmail.com>
+Date:   Tue Mar 14 13:57:23 2017 +0000
+
+    Refactored schema.rb.
+
+[33mcommit c149bf7f207a7209cd406dcd1585dde45d685cb7[m
+Author: joshua.broughton <joshua.c.broughton@gmail.com>
+Date:   Mon Mar 13 17:49:23 2017 +0000
+
+    Changed project name in ReadMe.
+
+[33mcommit 3f98ea1287c31aff81b90e3fbf790a37e3b6685f[m
+Author: joshua.broughton <joshua.c.broughton@gmail.com>
+Date:   Mon Mar 13 17:48:41 2017 +0000
+
+    Typo in readme.
+
+[33mcommit 5bfe88bb0bcc640b50ce947bea230fe22760bcf0[m
+Author: joshua.broughton <joshua.c.broughton@gmail.com>
+Date:   Mon Mar 13 17:47:56 2017 +0000
+
+    Added TODOs for Joshua and LaDonte.
+
+[33mcommit 2871fd46bf65176e67a4e90ef7a67e700238ea5a[m
+Author: joshua.broughton <joshua.c.broughton@gmail.com>
+Date:   Mon Mar 13 17:42:23 2017 +0000
+
+    Added TODOs for Duncan.
+
+[33mcommit 8ed147122cededb9af307230215e0958b4267e5a[m
+Author: joshua.broughton <joshua.c.broughton@gmail.com>
+Date:   Mon Mar 13 17:33:43 2017 +0000
+
+    Revamped readme. Added TOOD.md.
+
+[33mcommit ed7aa437d4f3317c034ff4b2150c3006f16b51e5[m
+Merge: af2e3d8 7555bac
+Author: joshua.broughton <joshua.c.broughton@gmail.com>
+Date:   Mon Mar 13 17:20:46 2017 +0000
+
+    Merge branch 'master' of github.com:subhoney/improved-octo-dollop
+
+[33mcommit af2e3d82b22ae9973c9d257e8e1ff1ca6e4c25b5[m
+Author: joshua.broughton <joshua.c.broughton@gmail.com>
+Date:   Mon Mar 13 17:16:12 2017 +0000
+
+    Overwrite of improved-octo-dollop
+
+[33mcommit 7555bac68ac5e5000a26c14fd7b29ac22d773fb7[m
+Author: dbrown22732 <dbrown22732@gmail.com>
+Date:   Tue Feb 21 11:22:36 2017 -0500
+
+    added basic login and signup pages, added menu bar, changed index to be splash page
+
+[33mcommit 012b6c0111064b019ccaf8d4ffd9190a97c422b2[m
+Merge: 07b780d b6244f4
+Author: dbrown22732 <dbrown22732@gmail.com>
+Date:   Tue Feb 21 11:17:58 2017 -0500
+
+    added basic login and signup pages, added menu bar, changed index to be splash page
+
+[33mcommit 07b780dd70f7e6f30af350731e84cbf894fe43a3[m
+Author: dbrown22732 <dbrown22732@gmail.com>
+Date:   Tue Feb 21 11:09:41 2017 -0500
+
+    added basic login and signup pages, added menu bar, changed index to be splash page
+
+[33mcommit b6244f4f14bab19ce2e47b7a8deb91f9f6b75df6[m
+Author: lgroce <lgroce@ggc.edu>
+Date:   Thu Feb 16 10:45:53 2017 -0500
+
+    rhtujtnthtnnyj
+
+[33mcommit 43df38fef54f90b099a3068013f9b9335d698292[m
+Author: lgroce <lgroce@ggc.edu>
+Date:   Thu Feb 16 10:43:14 2017 -0500
+
+    small changes:i
+
+[33mcommit 9c07cf8e0f39aa4d68af24b443ee92a3bb9db1dc[m
+Author: dbrown22732 <dbrown22732@gmail.com>
+Date:   Thu Feb 16 10:35:14 2017 -0500
+
+    add h1 tag
+
+[33mcommit 7cfa3a4c9873b390836d32848553d3999676b41f[m
+Author: Joshua Broughton <joshua.c.broughton@gmail.com>
+Date:   Thu Feb 9 14:08:26 2017 -0500
+
+    Initial commit.
